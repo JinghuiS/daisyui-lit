@@ -18,6 +18,7 @@ _dasyisyui
 
 packages/daisyui-lit/styles
 packages/daisyui-lit/types
+packages/styles/_dasyisyui
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

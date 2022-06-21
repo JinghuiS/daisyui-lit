@@ -1,0 +1,12 @@
+{
+    "name": "@daisyui-lit/components",
+    "version": "0.0.1",
+    "description": "all daisyui component are settled here",
+    "main": "index.ts",
+    "module": "index.ts",
+    "types": "index.d.ts",
+    "sideEffects": false,
+    "dependencies": {
+        "@daisyui-lit/styles": "workspace:^0.0.1"
+    }
+}

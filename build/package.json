@@ -1,0 +1,21 @@
+{
+  "name": "@daisyui-lit/build",
+  "version": "0.0.0",
+  "main": "es/components/index.js",
+  "style": "./dist/style.css",
+  "types": "types/index.d.ts",
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -p ./tsconfig-build.json && pnpm move",
+    "move":"node ../scripts/move.js"
+  },
+  "dependencies": {
+    "@daisyui-lit/components": "workspace:^0.0.1",
+    "@daisyui-lit/styles": "workspace:^0.0.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "@daisyui-lit/play",
+    "private": true,
+    "version": "0.0.1",
+    "description": "test component play",
+    "main": "index.ts",
+    "module": "index.ts",
+    "types": "index.d.ts",
+    "sideEffects": false,
+    "dependencies": {
+        "@daisyui-lit/components": "workspace:^0.0.1",
+        "@daisyui-lit/styles": "workspace:^0.0.1"
+    },
+    "scripts": {
+        "dev": "vite"
+    }
+}

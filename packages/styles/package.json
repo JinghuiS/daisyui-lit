@@ -1,0 +1,13 @@
+{
+    "name": "@daisyui-lit/styles",
+    "version": "0.0.1",
+    "description": "all daisyui css are settled here",
+    "main": "index.ts",
+    "module": "index.ts",
+    "types": "index.d.ts",
+    "sideEffects": false,
+    "scripts": {
+      "dev": "pnpm -C play dev",
+      "clone": "node ../../scripts/clone.js"
+    }
+  }

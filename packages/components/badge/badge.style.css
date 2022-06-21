@@ -1,0 +1,5 @@
+@import "@daisyui-lit/styles/css/components/badge.css";
+
+:host {
+  display: inline-flex;
+}

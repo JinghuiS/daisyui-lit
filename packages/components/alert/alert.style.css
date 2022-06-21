@@ -1,0 +1,10 @@
+@import "@daisyui-lit/styles/css/components/alert.css";
+
+.da-alert {
+  --tw-text-opacity: 1;
+  color: hsl(var(--bc) / var(--tw-text-opacity));
+}
+
+.flex-none {
+  flex: none;
+}
